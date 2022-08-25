@@ -34,4 +34,24 @@
 * Physically datacenters within the same region.
 ## Core Azure Resources
 - Components like storage,vm,and networks that are available to build cloud solutions.
-- 
+### Resources Groups-
+- is a container to manage and aggregte resources in a single unit.
+- can exist in only one resources group.
+- can exist in different regions.
+- can be moved to different resources groups.
+- applications can utilize multiple resource groups.
+### Azure Resources Manager
+- Provides a managemant layer that enables you to create,update and delete resources in your azure subscriptions
+### Azure Subscriptions 
+- An azure subs. provides you with authenticated and authorized access to azure accounts.
+    * ##### Biling boundary: generate seperate billing reports and invoices for each subscriptions.
+### Management groups
+* can include multiple azure subs.
+* subs. inherit conditions applied to a management group.
+* 10,000 management groups can be supported in a single directory.
+* A management group tree can support up to six levels of depth.
+### 
+     
+
+
+
